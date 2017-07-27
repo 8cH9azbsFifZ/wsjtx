@@ -32,6 +32,9 @@ On Linux:
    their  prerequisites   libfftw3-single-dev  and   its  prerequsites
    libusb-0.1-dev
 
+On Raspi (Raspian Jessie):
+   sudo apt-get install libqt5multimedia5 libqt5serialport5-dev libfftw3-dev libusb-dev build-essential g++ gcc gfortran git asciidoc asciidoctor cmake libtool autotools-dev autoconf texi2html texinfo qtmultimedia5-dev subversion libudev-dev
+
 Out of source builds are strongly recommended.
 
 Create a  build directory somewhere  and cd  to it then  configure the
